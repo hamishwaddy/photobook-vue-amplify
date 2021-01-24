@@ -30,6 +30,7 @@ type Photo
   gps: GPS
   height: Int
   width: Int
+  size: Int
 }
 
 type S3Object @aws_iam @aws_cognito_user_pools {
